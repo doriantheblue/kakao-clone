@@ -5,6 +5,8 @@
   position: fixed;
   padding: 5px 0px;
   background-color: white;
+  box-shadow: 0 30px 60px -20px rgba(50, 50, 93, 0.25),
+    0 18px 36px -18px rgba(0, 0, 0, 0.3), 0 -12px 36px -8px rgba(0, 0, 0, 0.025);
 }
 
 .chats-body {
@@ -16,9 +18,10 @@
 .chats-body .status-bar {
   padding: 0px 20px;
 }
+
 .chats-body {
   background-image: url("../images/chatBg.png");
-  min-height: 100vh;
+  min-height: 150vh;
 }
 
 .chat__write--container {
